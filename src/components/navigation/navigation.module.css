@@ -1,0 +1,37 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 15.82px;
+  width: 74px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 14px;
+  gap: 8px;
+  background: #0b0b0b;
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.text {
+  font-family: 'Inter-Regular' sans-serif;
+  font-size: 10px;
+  color: #fff;
+}
+
+.arrow {
+  width: 10px;
+}
