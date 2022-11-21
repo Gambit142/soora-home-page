@@ -4,10 +4,11 @@ import Picture from './components/picture/Picture';
 import landingImage1 from './assets/images/landing-image-2.png';
 import landingImage2 from './assets/images/landing-image-1.png';
 import Footer from './components/footer/Footer';
+import styles from './app.module.css';
 
 function App() {
   return (
-    <div className='general-container'>
+    <div className={styles.generalContainer}>
       <Navigation />
       <Header
         title="Bringing Muslims Together"
