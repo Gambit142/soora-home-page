@@ -1,8 +1,16 @@
 import Navigation from './components/Navigation';
+import Title from './components/Title';
 
 function App() {
   return (
-    <Navigation />
+    <>
+      <Navigation />
+      <Title
+        title="Bringing Muslims Together"
+        message=""
+        htmlTag="badges"
+      />
+    </>
   );
 }
 
