@@ -21,10 +21,10 @@ const Content = (props) => {
         <span>{title1}</span>
         <span className={styles.title}>{title2}</span>
       </h1>
-      <div>
+      <div className={styles.parentContainer}>
         {children}
       </div>
-      <small className={messageDisplay}>{message}</small>
+      <small className={`${messageDisplay} ${styles.spamInfo}`}>{message}</small>
     </section>
   )
 };

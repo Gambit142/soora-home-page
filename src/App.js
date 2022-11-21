@@ -21,7 +21,8 @@ function App() {
         alt="landing for homepage"
       />
       <Header
-        title="Get Notified When We Launch"
+        title1="Get Notified"
+        title2="When We Launch"
         message="Don't worry, we won't spam you :)"
         htmlTag="input"
       />

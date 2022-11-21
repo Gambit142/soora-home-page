@@ -11,10 +11,10 @@ const Badges = () => (
 );
 
 const Input = () => (
-  <form>
-    <input type="text" />
-    <button type="button">Notify Me</button>
-  </form>
+  <div className={styles.searchInputContainer}>
+    <input className={styles.input} type="text" />
+    <button className={styles.button} type="button">Notify Me</button>
+  </div>
 );
 
 const Header = (props) => {
