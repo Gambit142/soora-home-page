@@ -8,30 +8,32 @@ import styles from './app.module.css';
 
 function App() {
   return (
-    <div className={styles.generalContainer}>
-      <Navigation />
-      <Header
-        title1="Bringing"
-        title2="Muslims Together"
-        message=""
-        htmlTag="badges"
-      />
-      <Picture
-        src={landingImage1}
-        alt="landing for homepage"
-      />
-      <Header
-        title1="Get Notified"
-        title2="When We Launch"
-        message="Don't worry, we won't spam you :)"
-        htmlTag="input"
-      />
-      <Picture
-        src={landingImage2}
-        alt="landing for homepage"
-      />
+    <>
+      <div className={styles.generalContainer}>
+        <Navigation />
+        <Header
+          title1="Bringing"
+          title2="Muslims Together"
+          message=""
+          htmlTag="badges"
+        />
+        <Picture
+          src={landingImage1}
+          alt="landing for homepage"
+        />
+        <Header
+          title1="Get Notified"
+          title2="When We Launch"
+          message="Don't worry, we won't spam you :)"
+          htmlTag="input"
+        />
+        <Picture
+          src={landingImage2}
+          alt="landing for homepage"
+        />
+      </div>
       <Footer />
-    </div>
+    </>
   );
 }
 
