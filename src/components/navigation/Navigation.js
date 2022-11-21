@@ -7,7 +7,7 @@ const Navigation = () => (
     <div>
       <img className={styles.logo} src={logo} alt="soora-logo" />
     </div>
-    <button className={styles.button}>
+    <button type="button" className={styles.button}>
       <span className={styles.text}>
         Contact us
       </span>

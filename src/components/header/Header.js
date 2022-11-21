@@ -1,4 +1,5 @@
-import Content from "./Content";
+import PropTypes from 'prop-types';
+import Content from './Content';
 import badge1 from '../../assets/images/google-play.png';
 import badge2 from '../../assets/images/apple-store.png';
 import styles from './header.module.css';
@@ -18,8 +19,9 @@ const Input = () => (
 );
 
 const Header = (props) => {
-
-  const { title1, title2, message, htmlTag } = props;
+  const {
+    title1, title2, message, htmlTag,
+  } = props;
 
   if (htmlTag === 'badges') {
     return (
@@ -27,17 +29,23 @@ const Header = (props) => {
         <Badges />
       </Content>
     );
-  } else if (htmlTag === 'input') {
+  } if (htmlTag === 'input') {
     return (
       <Content title1={title1} title2={title2} message={message}>
         <Input />
       </Content>
     );
-  } else {
-    return (
-      <Content title1={title1} title2={title2} message={message} />
-    );
   }
+  return (
+    <Content title1={title1} title2={title2} message={message} />
+  );
+};
+
+Header.propTypes = {
+  title1: PropTypes.string.isRequired,
+  title2: PropTypes.string.isRequired,
+  message: PropTypes.string.isRequired,
+  htmlTag: PropTypes.string.isRequired,
 };
 
 export default Header;

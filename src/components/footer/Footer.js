@@ -27,17 +27,17 @@ const Footer = () => {
       src: youtubeIcon,
       alt: 'youtube-icon',
     },
-  ]
+  ];
 
   return (
     <footer className={styles.footerContainer}>
-        <ul className={styles.iconsContainer}>
-          {socialMediaIcons.map((icon, index) => (
-            <li key={index}>
-              <img className={styles.icons} src={icon.src} alt={icon.alt} />
-            </li>
-          ))}
-        </ul>
+      <ul className={styles.iconsContainer}>
+        {socialMediaIcons.map((icon) => (
+          <li key={icon.alt}>
+            <img className={styles.icons} src={icon.src} alt={icon.alt} />
+          </li>
+        ))}
+      </ul>
       <p className={styles.copyright}>Copyright © 2022 Soora. All rights reserved</p>
     </footer>
   );
