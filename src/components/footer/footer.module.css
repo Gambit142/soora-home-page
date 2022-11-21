@@ -12,7 +12,7 @@
 .iconsContainer li {
   width: 40px;
   height: 40px;
-  border: 1px solid #000000;
+  border: 1px solid #000;
   border-radius: 100px;
   padding: 9px;
 }
@@ -30,6 +30,6 @@
   font-size: 13px;
   line-height: 15px;
   text-align: center;
-  color: #0B0B0B;
+  color: #0b0b0b;
   padding: 17px 0;
 }

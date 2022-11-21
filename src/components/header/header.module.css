@@ -1,7 +1,7 @@
 :root {
   --flex: flex;
   --normalblack: #000;
-  --appblack: #0b0b0b
+  --appblack: #0b0b0b;
 }
 
 .headerSectionContainer {
@@ -19,10 +19,10 @@
 
 .line {
   width: 17.7px;
-  height: 0px;
+  height: 0;
   border: 1px solid var(--normalblack);
   background-color: var(--normalblack);
-  opacity: 0.7
+  opacity: 0.7;
 }
 
 .smallText {
@@ -71,8 +71,8 @@
 }
 
 .input {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   width: 100%;
   outline: none;
   height: 45px;
@@ -109,6 +109,6 @@
   font-style: normal;
   font-size: 13px;
   line-height: 15px;
-  color:var(--appblack);
+  color: var(--appblack);
   margin-bottom: 30px;
 }
