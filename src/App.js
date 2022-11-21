@@ -11,7 +11,8 @@ function App() {
     <div className={styles.generalContainer}>
       <Navigation />
       <Header
-        title="Bringing Muslims Together"
+        title1="Bringing"
+        title2="Muslims Together"
         message=""
         htmlTag="badges"
       />

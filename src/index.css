@@ -17,3 +17,9 @@
   font-family: 'Inter-SemiBold';
   src: local('Inter-SemiBold'), url('./assets/fonts/Inter-SemiBold.ttf') format('truetype');
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
