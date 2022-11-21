@@ -1,5 +1,7 @@
+import styles from './header.module.css';
+
 const Content = (props) => {
-  const { children, title, message } = props;
+  const { children, title1, title2, message } = props;
   const display = {
     block: {
       display: 'block',
@@ -10,10 +12,15 @@ const Content = (props) => {
   };
   const messageDisplay = message ? display.block : display.none;
   return (
-    <section>
-      <hr />
-      <small>Coming Soon</small>
-      <h1>{title}</h1>
+    <section className={styles.headerSectionContainer}>
+      <div className={styles.titleContainer}>
+        <hr className={styles.line}/>
+        <small className={styles.smallText}>Coming Soon</small>
+      </div>
+      <h1 className={styles.title}>
+        <span>{title1}</span>
+        <span className={styles.title}>{title2}</span>
+      </h1>
       <div>
         {children}
       </div>
