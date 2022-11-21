@@ -1,6 +1,6 @@
 import Content from "./Content";
-import badge1 from '../assets/images/landing-image-2.png'
-import badge2 from '../assets/images/landing-image-1.png'
+import badge1 from '../../assets/images/google-play.png';
+import badge2 from '../../assets/images/apple-store.png';
 
 const Badges = () => (
   <div>
@@ -16,7 +16,7 @@ const Input = () => (
   </form>
 );
 
-const Title = (props) => {
+const Header = (props) => {
 
   const { title, message, htmlTag } = props;
 
@@ -39,4 +39,4 @@ const Title = (props) => {
   }
 };
 
-export default Title;
+export default Header;

@@ -1,5 +1,5 @@
-import logo from '../assets/images/logo.png';
-import arrow from '../assets/images/contact-icon.png'; 
+import logo from '../../assets/images/logo.png';
+import arrow from '../../assets/images/contact-icon.png'; 
 
 const Navigation = () => (
   <nav>

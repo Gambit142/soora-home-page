@@ -10,7 +10,7 @@ const Content = (props) => {
   };
   const messageDisplay = message ? display.block : display.none;
   return (
-    <div>
+    <section>
       <hr />
       <small>Coming Soon</small>
       <h1>{title}</h1>
@@ -18,7 +18,7 @@ const Content = (props) => {
         {children}
       </div>
       <small className={messageDisplay}>{message}</small>
-    </div>
+    </section>
   )
 };
 
