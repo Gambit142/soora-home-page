@@ -1,4 +1,4 @@
-# Air Pollution Report Centre
+# Soora Home Page
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
 > This applcation is a take home assignment that seeks to replicate the [Soora HomePage](https://www.sooratheapp.com/).
